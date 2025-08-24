@@ -1,0 +1,28 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      },
+      { "source": "/manifest.json", "destination": "/manifest.json" }
+    ],
+    "headers": [
+      {
+        "source": "/fonts/**",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "font/ttf"
+          }
+        ]
+      }
+    ]
+  }
+}
