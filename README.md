@@ -1,50 +1,12 @@
-# Welcome to your Expo app 👋
+# Welcome to Grocery-Gatherer 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+The Modern Gatherer app is designed to help users collect and manage grocery items they need to purchase, similar to adding products to a shopping cart in online stores. Inspired by ancient gatherers, the app enables users to build a "collection basket" before going out, reducing the chances of forgetting or buying duplicate items.
 
-## Get started
+## Background
 
-1. Install dependencies
+Carrie said I can still let life go on by ordering Chinese takeout, which is true. But I prefer to take control of how life unfolds by setting specific goals. Carrie cares a lot about how we eat and what we eat. Her smile lights up when she sees the fridge full of fresh vegetables, everything well-stocked, and nothing missing from the list.
 
-   ```bash
-   npm install
-   ```
+We currently live in the city centre, so our grocery shopping tends to be quite fragmented. We don’t usually go to supermarkets to buy everything for the whole month, especially since we only have a small refrigerator at the moment. That’s why I think creating this app to organize grocery shopping for each trip is a great idea. It could help make our lives smoother, more secure, and happier.
 
-2. Start the app
+<img width="512" height="512" alt="logo512" src="https://github.com/user-attachments/assets/bc01b40c-235f-45f7-9147-a1e78c93e9f2" />
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
