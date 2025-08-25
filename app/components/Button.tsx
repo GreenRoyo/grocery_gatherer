@@ -10,14 +10,11 @@ export default function Button({ label, itemId }: Props) {
     const { addItem } = useShoppingList();
     const router = useRouter();
     const handleAdd = () => {
-        addItem({
-          id: itemId,
-          name: itemId, 
-          purchased: false
-        });
+        addItem(itemId); // 只传名字
         alert(`已将 ${itemId} 加入购物车`);
         router.back();
-      };
+    };
+
   return (
     <View
     style={[
